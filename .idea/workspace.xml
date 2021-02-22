@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c782bdeb-44e3-48fd-bf67-6a5c0c032464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/course-editor/course-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-editor/course-editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-grid/course-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-grid/course-grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-manager/course-manager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-manager/course-manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-table/course-row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-table/course-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-table/course-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/course-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/course-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/course-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613899665909</updated>
-      <workItem from="1613899668193" duration="37003000" />
+      <workItem from="1613899668193" duration="37660000" />
     </task>
     <servers />
   </component>
