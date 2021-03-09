@@ -37,7 +37,7 @@ const CourseRow = (
         <td colSpan="2">
             {
                 !editing &&
-                <Link to="/courses/editor">
+                <Link to={`/courses/table/editor/${course._id}`}>
                     {title}
                 </Link>
             }

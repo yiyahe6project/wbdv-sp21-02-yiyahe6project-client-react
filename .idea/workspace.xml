@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c782bdeb-44e3-48fd-bf67-6a5c0c032464" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/course-editor/editable-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/course-editor/lesson-tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/course-editor/module-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/course-editor/topic-pills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/lesson-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/module-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/topic-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/lesson-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/module-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/topic-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/course-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/course-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-editor/course-editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-editor/course-editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-editor/course-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-editor/course-editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-grid/course-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-grid/course-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-manager/course-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-manager/course-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-table/course-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-table/course-row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +62,19 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/course-editor" />
       <recent name="$PROJECT_DIR$/src/components/course-grid" />
       <recent name="$PROJECT_DIR$/src/components/course-table" />
       <recent name="$PROJECT_DIR$/src/components/course-manager" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/course-editor" />
     </key>
   </component>
   <component name="RunManager">
@@ -83,7 +104,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613899665909</updated>
-      <workItem from="1613899668193" duration="37660000" />
+      <workItem from="1613899668193" duration="38151000" />
+      <workItem from="1614905373443" duration="2406000" />
+      <workItem from="1614922040632" duration="23000" />
+      <workItem from="1615110845419" duration="45400000" />
     </task>
     <servers />
   </component>
@@ -100,6 +124,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

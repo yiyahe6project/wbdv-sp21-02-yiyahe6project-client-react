@@ -37,7 +37,7 @@ const CourseCard = ({ deleteCourse,
         <h5 className="card-title">
           {
           !editing &&
-          <Link to="/courses/editor">
+          <Link to={`/courses/grid/editor/${course._id}`}>
             {title}
           </Link>
         }
@@ -54,7 +54,7 @@ const CourseCard = ({ deleteCourse,
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
           content.</p>
         <img src={``}/>
-        <Link to="/courses/editor" className="btn btn-primary">
+        <Link to={`/courses/grid/editor/${course._id}`} className="btn btn-primary">
           {course.title}
         </Link>
         <div className="float-right">
