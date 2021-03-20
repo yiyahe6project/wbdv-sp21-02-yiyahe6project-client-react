@@ -10,9 +10,19 @@ const ParagraphWidget = (
     const [cachedItem, setCachedItem] = useState(widget)
     return(
         <>
+
             {
                 editing &&
                 <>
+                    <i onClick={() => {
+                        setEditing(false)
+                        updateWidget(cachedItem)}}
+                       className="fas fa-check float-right pr-2"></i>
+                    <i onClick={() =>
+                        deleteWidget(widget)}
+                       className="fas fa-trash float-right pr-2"></i>
+                    <br/>
+
                     <select value={cachedItem.type}
                             onChange={(e) =>
                                 setCachedItem({
@@ -38,24 +48,14 @@ const ParagraphWidget = (
                             })}
                         value={cachedItem.text}
                         className="form-control"></textarea>
-
-
-                    <i onClick={() => {
-                        setEditing(false)
-                        updateWidget(cachedItem)}}
-                       className="fas fa-check float-right pr-2"></i>
-                    <i onClick={() =>
-                        deleteWidget(widget)}
-                       className="fas fa-trash float-right pr-2"></i>
                 </>
             }
             {
                     !editing &&
                     <>
-                        <p>
-                            {widget.text}
-                        </p>
                         <i onClick={() => setEditing(true)} className="fas fa-cog float-right"></i>
+                        <h1>Paragraph Widget</h1>
+                        <p>{widget.text}</p>
                     </>
 
             }

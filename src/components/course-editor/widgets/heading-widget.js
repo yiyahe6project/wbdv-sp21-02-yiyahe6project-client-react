@@ -14,6 +14,16 @@ const HeadingWidget = (
             {
                 editing &&
                 <>
+                    <i onClick={() => {
+                        setEditing(false)
+                        updateWidget(cachedItem)
+                    }}
+                       className="fas fa-check float-right pr-2"></i>
+                    <i onClick={() =>
+                        deleteWidget(widget)}
+                       className="fas fa-trash float-right pr-2"></i>
+                    <br/>
+                    
                     <select value={cachedItem.type}
                             onChange={(e) =>
                                 setCachedItem({
@@ -57,28 +67,20 @@ const HeadingWidget = (
                         <option value={5}>Heading 5</option>
                         <option value={6}>Heading 6</option>
                     </select>
-
-                    <i onClick={() => {
-                        setEditing(false)
-                        updateWidget(cachedItem)
-                    }}
-                       className="fas fa-check float-right pr-2"></i>
-                    <i onClick={() =>
-                        deleteWidget(widget)}
-                       className="fas fa-trash float-right pr-2"></i>
                 </>
             }
             {
                 !editing &&
                 <>
+                    <i onClick={() => setEditing(true)} className="fas fa-cog float-right"></i>
 
+                    <h1>Heading Widget</h1>
                     {widget.size === 1 && <h1>{widget.text}</h1>}
                     {widget.size === 2 && <h2>{widget.text}</h2>}
                     {widget.size === 3 && <h3>{widget.text}</h3>}
                     {widget.size === 4 && <h4>{widget.text}</h4>}
                     {widget.size === 5 && <h5>{widget.text}</h5>}
                     {widget.size === 6 && <h6>{widget.text}</h6>}
-                    <i onClick={() => setEditing(true)} className="fas fa-cog float-right"></i>
                 </>
             }
         </>
