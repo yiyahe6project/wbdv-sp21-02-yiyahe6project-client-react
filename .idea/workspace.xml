@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c782bdeb-44e3-48fd-bf67-6a5c0c032464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/course-editor/widgets/image-widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/course-editor/widgets/list-widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/questions/multiple-choice-question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/questions/question.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/questions/question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/questions/true-false-question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizzes/quizzes-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/questions-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/quizzes-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/course-editor/widgets/widget-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-editor/widgets/widget-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/course-table/course-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course-table/course-row.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/course-editor/widgets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -58,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/course-editor/widgets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -115,7 +123,9 @@
       <workItem from="1616545951479" duration="708000" />
       <workItem from="1616900128832" duration="672000" />
       <workItem from="1616989544389" duration="1814000" />
-      <workItem from="1617068698241" duration="5239000" />
+      <workItem from="1617068698241" duration="6391000" />
+      <workItem from="1617104189426" duration="2000" />
+      <workItem from="1618139911878" duration="13527000" />
     </task>
     <servers />
   </component>
@@ -143,7 +153,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/reducers/widget-reducer.js</url>
           <line>34</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

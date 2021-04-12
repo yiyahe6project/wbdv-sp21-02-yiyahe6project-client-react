@@ -53,13 +53,18 @@ const CourseRow = (
         </td>
         <td className="d-none d-sm-table-cell">{owner}</td>
         <td className="d-none d-md-table-cell">{lastModified}</td>
+        <td>
+          <Link to={`/courses/${course._id}/quizzes`}>
+              Quizzes
+          </Link>
+        </td>
         <td >
             <div className="float-right">
                 {editing && <i onClick={() => saveTitle()} className="fas fa-check color-green fa-2x" style={{color: "green"}}></i>}
                 {editing && <i onClick={() => deleteRow(course)} className="fas fa-times fa-2x" style={{color: "red"}}></i>}
                 {!editing && <i onClick={() => setEditing(true)} className="fas fa-edit fa-2x" style={{color: "blue"}}></i>}
             </div>
-            </td>
+        </td>
       </tr>
   )
 }
