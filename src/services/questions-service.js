@@ -1,10 +1,17 @@
 
-const QUIZZES_URL = 'http://localhost:4000/api/quizzes';
-const findQuestionsForQuiz = (qid) => {
-    return fetch(`${QUIZZES_URL}/${qid}/questions`)
+const QUESTIONS_URL = 'http://localhost:4000/api';
+const findQuestionsForQuiz = (qzid) => {
+    return fetch(`${QUESTIONS_URL}/quizzes/${qzid}/questions`)
         .then(response => response.json())
 }
-
+const findAllQuestions = () => {
+    return fetch(`${QUESTIONS_URL}/questions`)
+        .then(response => response.json())
+}
+const findQuestionById = (qid) => {
+    return fetch(`${QUESTIONS_URL}/questions/${qid}`)
+        .then(response => response.json())
+}
 export default {
-    findQuestionsForQuiz
+    findQuestionsForQuiz, findQuestionById, findAllQuestions
 }

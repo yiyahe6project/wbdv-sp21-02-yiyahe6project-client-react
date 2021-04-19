@@ -3,6 +3,8 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./components/home"
 import QuizzesList from "./components/quizzes/quizzes-list";
 import Quiz from "./components/quizzes/quiz";
+import AttemptsList from "./components/quizzes/attempts-list";
+import React from "react";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
             </Route>
             <Route path="/courses/:courseId/quizzes/:quizId" exact={true}>
                 <Quiz/>
+            </Route>
+            <Route path="/courses/:courseId/quizzes/:quizId/attempts" exact={true}>
+                <AttemptsList/>
             </Route>
         </div>
       </BrowserRouter>

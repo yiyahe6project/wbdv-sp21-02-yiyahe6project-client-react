@@ -1,14 +1,22 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import "./question.css";
 
-const TrueFalseQuestion = ({question}) => {
+const TrueFalseQuestion = ({question, updateAnswer, graded}) => {
     const [yourAnswer, setYourAnswer] = useState("")
     const [highlightCorrect, setHighlightCorrect] = useState("")
     const [highlightYourAnswer, setHighlightYourAnswer] = useState("")
-    const [graded, setGraded] = useState(false)
     const trueChoice = "true";
     const falseChoice = "false";
 
+    useEffect(() => {
+        setYourAnswer(question.answer)
+        if (graded) {
+            setHighlightCorrect('list-group-item-success');
+            if (question.answer !== question.correct) {
+                setHighlightYourAnswer('list-group-item-danger');
+            }
+        }
+    }, [])
     return (
         <div>
             <h5>{question.question}
@@ -28,6 +36,7 @@ const TrueFalseQuestion = ({question}) => {
                     <label><input
                         onClick={() => {
                             setYourAnswer(trueChoice)
+                            updateAnswer(trueChoice)
                         }}
                         type="radio"
                         disabled={graded}
@@ -52,6 +61,7 @@ const TrueFalseQuestion = ({question}) => {
                     <label><input
                         onClick={() => {
                             setYourAnswer(falseChoice)
+                            updateAnswer(falseChoice)
                         }}
                         type="radio"
                         disabled={graded}
@@ -73,16 +83,8 @@ const TrueFalseQuestion = ({question}) => {
             <p className="your-answer">
                 Your answer: {yourAnswer}
             </p>
-            <button type="button"
-                    onClick={() => {
-                        setHighlightCorrect('list-group-item-success');
-                        setGraded(true)
-                        if (yourAnswer !== question.correct) {
-                            setHighlightYourAnswer('list-group-item-danger');
-                        }
-                    }}
-                    className="btn btn-success">Grade
-            </button>
+            {graded && <>Correct answer: {question.correct}</>}
+
         </div>
     )
 }
