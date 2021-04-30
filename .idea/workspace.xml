@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c782bdeb-44e3-48fd-bf67-6a5c0c032464" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/quizzes/attempt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/quizzes/attempts-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/questions/multiple-choice-question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/questions/multiple-choice-question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/questions/question.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/questions/question.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/questions/question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/questions/question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/questions/true-false-question.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/questions/true-false-question.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quizzes/quizzes-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quizzes/quizzes-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/questions-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/questions-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/quizzes-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/quizzes-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,17 +69,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="js.build_tools.npm">
       <command value="start" />
       <node-interpreter value="project" />
@@ -132,6 +110,7 @@
       <workItem from="1618541514425" duration="234000" />
       <workItem from="1618547334735" duration="16404000" />
       <workItem from="1618655910484" duration="42763000" />
+      <workItem from="1619745424630" duration="324000" />
     </task>
     <servers />
   </component>
