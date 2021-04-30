@@ -1,5 +1,5 @@
+const QUESTIONS_URL = process.env.REACT_APP_QUESTIONS_URL;
 
-const QUESTIONS_URL = 'http://localhost:4000/api';
 const findQuestionsForQuiz = (qzid) => {
     return fetch(`${QUESTIONS_URL}/quizzes/${qzid}/questions`)
         .then(response => response.json())
